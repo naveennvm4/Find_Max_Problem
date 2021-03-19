@@ -5,7 +5,7 @@ class FindMaxTest {
     @Test
     public void checkMax_IfFirstDigitIsMax(){
         FindMax testMax = new FindMax();
-        Integer check = testMax.maximum();
+        Integer check = testMax.maximum(3,2,1);
         Assertions.assertEquals(check,3);
 
     }
