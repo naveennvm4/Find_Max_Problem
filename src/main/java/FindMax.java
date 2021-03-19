@@ -15,9 +15,9 @@ public class FindMax {
 
     public static void main(String[] args)
     {
-        Integer[] integer= {1,2,3,4};
-        Float[] floatArr= {1.1f,1.2f,2.0f,3.2f};
-        String[] string= {"Mango","Apple","Banana","Orange",};
+        Integer[] integer= {1,2,3,4,5,6};
+        Float[] floatArr= {1.1f,1.2f,2.0f,3.2f, 4.0f,5.2f};
+        String[] string= {"Mango","Apple","Banana","Orange","Pineapple"};
         maximum(integer);
         maximum(floatArr);
         maximum(string);
